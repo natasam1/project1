@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.header-hero-wrapper {
+    background-color: rgb(138, 132, 132);
+}
+.logoimg {
+    width: 20px;
+    height: auto;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.logo{
+margin-right: 500px;
+color: rgb(207, 206, 206);}
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-right: 180px;
+}
+.links a {
+    color: rgb(207, 206, 206);
+    text-decoration: none;
+}
+    .header {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 10px;    
+    }
+.first {
+    display: flex;
+    align-items: center;
+   gap: 100px;
+   box-sizing: border-box;
+
+}
+.first-container{
+    display: block;
+    padding-bottom: 100px;
+    width: 470px;
+    margin-left: 125px;
+}
+.secunde-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: block;
+}
+.firstimg {
+    width: 700px;
+    height: 30vh;
+    margin-right: 125px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    object-fit: fill;
+}
+.button1 {
+    color: white;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.text1 {
+    color: rgb(252, 247, 247);
+}
+p. {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 00.67em;
+    gap: 10px;
+}
+   .h3s2 {
+       text-align: center;
+   }
+   .flex-container {
+    display: flex;
+    padding-top: 0px;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    padding-bottom: 10vh;
+    justify-content: space-between;
+
+
+   }
+   .flex-container img{
+       max-width: 100%;
+       height: 150px;
+object-fit: fill; 
+border-radius: 10px;
+cursor: pointer;
+}
+.flex-container figcaption{
+    text-align: center;
+    
+}
+.section3 {
+    background-color: rgb(220, 185, 252);
+    box-sizing: border-box;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh ;
+    margin: 0%;
+    display: block;
+}
+.italic {
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+.author {
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.registre {
+    text-align: center;
+    padding-top: 30px;
+
+}
+.button2 {
+    color: white;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+.footer {
+    background-color: rgb(188, 118, 252);
+
+}
+.footer p {
+    text-align: center;
+}
